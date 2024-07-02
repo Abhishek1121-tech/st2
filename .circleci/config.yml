@@ -3,6 +3,7 @@
 # PACKAGECLOUD_TOKEN
 version: 2
 jobs:
+
   # Run st2 Unit Tests
   unit:
     # 'machine' executor runs Unit tests ~x1.5 faster, comparing to 'docker' executor
